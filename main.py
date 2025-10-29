@@ -6,7 +6,7 @@ import pandas as pd
 # https://raw.githubusercontent.com/huhshin/streamlit/master/data_iris.csv 읽고 나타내기 
 def main_page():
     st.header('Main Page')
-    st.image('https://www.google.com/url?sa=i&url=https%3A%2F%2Fnamu.wiki%2Fw%2F%25ED%2591%25B8%25EB%25A5%25B8%2520%25EC%259E%25A5%25EB%25AF%25B8%3Fuuid%3Dcb0d9911-afdd-4968-9f1f-da9cf4f7abb5&psig=AOvVaw3zbdoBNMtvmXi5BzXeA2e9&ust=1761818789893000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJjMqdWUyZADFQAAAAAdAAAAABAE')
+    st.image('https://i.namu.wiki/i/DiYExkj1wNJiwl8yxJ_35zdhCk_Zks9GtCa8zqErfpH703Sv7DCcJeeLBBMxLC-eofYKMz3e8w2nHa5uY4bZ4V5nWh74TXtbYnzyHQ5WP2iXQBgTsscz9fxdPeV3jIMlLIz-Q_rsR0wLT8WIHg6t1Q.webp')
     iris = pd.read_csv('https://raw.githubusercontent.com/huhshin/streamlit/master/data_iris.csv')
     st.write(iris)
     
